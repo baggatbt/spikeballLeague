@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
 </head>
 <body>
-	
+	<div id="opaque"></div>
 	<div class="header">
 		
 		<h1 class="title">Rochester Spikeball League</h1>
@@ -49,11 +49,12 @@
   			</tr>
 			</table>
 
-		<h3> Register </h3>
+		
 
 		<form action="/action_page.php">
-  <div class="container">
-    <p>Please fill in this form to create an account.</p>
+	<button class="open-button" onclick="openForm()">Register</button>
+  <div class="container formPopup" id="myForm">
+    
     <hr>
 
     <label for="email"><b>Email</b></label>
@@ -68,11 +69,11 @@
     
 
     <button type="submit" class="registerbtn">Register</button>
+    <button type="button" class="btn cancel closebtn" onclick="closeForm()">Close</button>
+    
   </div>
   
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+ 
 </form>
 
 	</div>
