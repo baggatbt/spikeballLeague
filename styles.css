@@ -5,10 +5,14 @@ flex-direction: column;
 justify-content: 
 }
 
+.title {
+	padding-bottom: 20px;
+}
+
 .header {
 margin: auto;
 color: black;
-font-family: 'Sigmar One', cursive;
+font-family: 'Signika', sans-serif;
 }
 
 .headerImage{
@@ -27,11 +31,6 @@ ul {
   padding: 0;
 }
 
-li {
-  display: inline;
-  padding: 10px;
-}
-
 a {
 color: black;
 text-decoration: none;
@@ -45,9 +44,9 @@ text-decoration: none;
 }
 
 .logo{
-position: absolute;
-top: 2%;
-left: 2%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
 }
 
 .events {
@@ -65,6 +64,7 @@ left: 2%;
 
 .line {
 	border-top: solid black 2px;
+	padding: 10px;
 }
 
 table {
