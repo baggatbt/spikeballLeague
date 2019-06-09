@@ -45,7 +45,7 @@ height: 600px;
 background: url("https://i.ibb.co/NN0sCmc/spikeballheader.jpg");
 background-size: 100%;
 padding: 0px;
-border-bottom: solid black 2px;
+border-bottom: solid black;
 }
 
 ul {
@@ -183,7 +183,7 @@ a {
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
-  background-color: #555;
+  background-color: #080705;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -196,7 +196,7 @@ a {
 }
 
 .learn-button {
-  background-color: #555;
+  background-color: #080705;
   color: white;
   padding: 16px 20px;
   border: none;
